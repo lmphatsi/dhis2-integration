@@ -36,5 +36,5 @@ jobs:
         git branch -m dhis_integration_rpm
         git add .
         git commit -m "release dhis-integration rpm"
-        git remote add github https://${{ secrets.DHIS_INTEGRATION_KEY }}@github.com/dhis2-integration.git
+        git remote add github https://${{ secrets.DHIS_INTEGRATION_KEY }}@github.com/lmphatsi/dhis2-integration.git
         git push -f github dhis_integration_rpm
