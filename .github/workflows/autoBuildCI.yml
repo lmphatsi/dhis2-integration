@@ -26,4 +26,4 @@ jobs:
     - name: where am I
       run: |
         pwd
-        ls target
+        ls target/rpm
