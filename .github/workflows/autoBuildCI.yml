@@ -29,7 +29,7 @@ jobs:
         ls target/rpm/dhis-integration/RPMS/noarch
     - name: push dhis-integration to other branch
       run: |
-        cd /home/runner/work/target/rpm/dhis-integration/RPMS/noarch
+        cd /home/runner/work/dhis-integration/target/rpm/dhis-integration/RPMS/noarch
         git config --global user.email "la.mphatsi@gmail.com"
         git config --global user.name "lmphatsi"
         git init
