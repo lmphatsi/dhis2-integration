@@ -26,4 +26,4 @@ jobs:
     - name: where am I
       run: |
         pwd
-        ls target/rpm/dhis-integration/RPMS
+        ls target/rpm/dhis-integration/RPMS/noarch
