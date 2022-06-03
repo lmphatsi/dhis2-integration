@@ -1,6 +1,7 @@
 <h1>Implementation Guide</h1>
 <h2>Install and configure DHIS2 integration app</h2>
 Assuming you have Bahmni installer latest version installed and running successfully. 
+--
 <ol>
 <li>Run the following command to install DHIS2 integration app.
 <pre><code>
